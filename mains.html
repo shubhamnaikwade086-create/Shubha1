@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>UPSC Mains</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Inter, Arial} 
+        body{background:#f5f7fa;color:#222;line-height:1.6;font-size:16px}
+
+        nav{
+            width:100%;
+            background:white;
+            padding: 1rem 1.5rem;
+            box-shadow:0 4px 15px rgba(0,0,0,0.08);
+            position:sticky;top:0;z-index:10;
+            display:flex; justify-content:center;
+            align-items:center;
+            flex-wrap: wrap; 
+        }
+
+        nav a{
+            margin: 0.3rem 0.5rem; 
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 6px; 
+            font-weight: 600;
+            transition: background-color 0.3s, transform 0.1s;
+        }
+        nav a:hover{
+            background-color: #0056b3; 
+            transform: translateY(-1px);
+        }
+
+        .section{
+            max-width:900px;
+            margin:2rem auto;
+            background:white;
+            padding:1.5rem;
+            border-radius:12px;
+            box-shadow:0 6px 18px rgba(0,0,0,0.06);
+        }
+        .section p{
+            text-align: justify;
+        }
+        .section h2{font-size:1.8rem;margin-bottom:0.75rem;color:#007bff}
+        .section h3{font-size:1.4rem;margin-top:1rem;margin-bottom:0.5rem;color:#333}
+        .section p, .section li{font-size:1rem;line-height:1.6}
+        ul{margin-top:0.5rem;padding-left:1.5rem}
+
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            body{font-size:15px}
+            nav {
+                flex-direction: column; 
+                align-items: stretch; 
+                padding: 1rem; 
+            }
+            nav a {
+                margin: 0.3rem 0; 
+                text-align: center; 
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="prelims.html">Prelims</a>
+        <a href="mains.html">Mains</a>
+        <a href="interview.html">Interview</a>
+        <a href="optional.html">Optional Subjects</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+
+    <div class="section">
+        <h2>UPSC Mains Examination (Written Stage)</h2>
+        <p>The Mains examination is the most crucial stage as it determines a candidate's position on the final merit list. It consists of nine papers, all of which are descriptive in nature and test a candidate's knowledge, articulation, and analytical skills.</p>
+    </div>
+
+    <div class="section">
+        <img src="placeholder_written_exam.jpg" alt="A hand writing on a blank answer sheet">
+        <h3>Merit Ranking Papers (Total: 1750 Marks)</h3>
+        <p>These seven papers are counted for the final rank calculation:</p>
+        <ul>
+            <li><strong>Paper I: Essay (250 Marks)</strong> - Requires writing two essays on various topics, testing clarity of thought and coherence.</li>
+            <li><strong>Paper II: General Studies I (GS 1 - 250 Marks)</strong> - Covers Indian Heritage and Culture, History, and Geography of the World and Society.</li>
+            <li><strong>Paper III: General Studies II (GS 2 - 250 Marks)</strong> - Covers Governance, Constitution, Polity, Social Justice, and International Relations.</li>
+            <li><strong>Paper IV: General Studies III (GS 3 - 250 Marks)</strong> - Covers Technology, Economic Development, Biodiversity, Environment, Security, and Disaster Management.</li>
+            <li><strong>Paper V: General Studies IV (GS 4 - 250 Marks)</strong> - Covers Ethics, Integrity, and Aptitude. Includes theoretical questions and case studies.</li>
+            <li><strong>Paper VI & VII: Optional Subject (Paper 1 & 2 - 250 Marks each)</strong> - Two papers on the single optional subject chosen by the candidate (total 500 marks).</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Qualifying Papers (Mandatory)</h3>
+        <p>These two papers must be cleared with a minimum qualifying mark (25% each), but their marks are not counted towards the final merit total:</p>
+        <ul>
+            <li><strong>Paper A: Indian Language (300 Marks)</strong> - Any language listed in the Eighth Schedule of the Constitution.</li>
+            <li><strong>Paper B: English (300 Marks)</strong> - Standard English comprehension and grammar.</li>
+        </ul>
+        <p>Candidates must ensure they achieve the minimum required marks in these qualifying papers, otherwise their GS and Optional papers will not be evaluated.</p>
+    </div>
+
+</body>
+
+</html>
